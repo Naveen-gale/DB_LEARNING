@@ -1,0 +1,21 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "ep-small-dawn-ahs7p393-pooler.c-3.us-east-1.aws.neon.tech",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "APPDB",
+            "group": "postgresql://neondb_owner:npg_aPvdNc0C3IHr@ep-small-dawn-ahs7p393-pooler.c-3.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require",
+            "database": "college_db",
+            "username": "neondb_owner",
+            "password": "npg_aPvdNc0C3IHr"
+        }
+    ]
+}
